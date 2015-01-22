@@ -39,15 +39,18 @@
             <PivotItem Header="Sound">
                 <StackPanel>
                     <TextBlock Text="Volume Control" FontSize="20" Margin="20,20,20,20"></TextBlock>
-                <Slider HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="250"/>
-                
+                    <Slider HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="250"/>
+                    <TextBlock Text="Base Control" FontSize="20" Margin="20,20,20,20"></TextBlock>
+                    <Slider HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="250"/>
+                    <TextBlock Text="Treble Control" FontSize="20" Margin="20,20,20,20"></TextBlock>
+                    <Slider HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="250"/>
+
                 </StackPanel>
             </PivotItem>
             <PivotItem Header="Display">
-                <Border BorderBrush="White" BorderThickness="2">
-
-                </Border>
-
+                <StackPanel>
+                    
+                </StackPanel>
             </PivotItem>
         </Pivot>
     </Grid>
