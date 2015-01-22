@@ -19,57 +19,28 @@
         </CommandBar>
     </Page.BottomAppBar>
     
-    <!--Main Page Pivot-->
+    <!--Page Pivot-->
     <Grid>
         <Pivot Title="PROJECT 88">
-            <PivotItem Header="Home">
-
-                <!--Hub section-->
-                <!--<Hub Header="Menu">
-                    <HubSection Header="HubSection 0">
-                        <DataTemplate>
-                            <Grid/>
-                        </DataTemplate>
-                    </HubSection>
-                    <HubSection Header="HubSection 1">
-                        <DataTemplate>
-                            <Grid/>
-                        </DataTemplate>
-                    </HubSection>
-                </Hub>-->
-
-            
-            </PivotItem>
-            <PivotItem Header="About">
-                
+            <PivotItem Header="Page1">
+                <Border BorderBrush="White" BorderThickness="2">
+                    
+                </Border>
 
             </PivotItem>
-            <PivotItem Header="Contact">
+            <PivotItem Header="Page2">
+                <Border BorderBrush="White" BorderThickness="2">
+                    
+                </Border>
 
+            </PivotItem>
+            <PivotItem Header="Page3">
+                <Border BorderBrush="White" BorderThickness="2">
+                    
+                </Border>
 
             </PivotItem>
         </Pivot>
     </Grid>
 
-    <!--<Grid Margin="20,100,20,100">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-        <TextBlock Grid.Column="0" Grid.Row="0" Name="Block0" Margin="5,15" Foreground="#0ffb03" Text="BLOCK 1" FontSize="24"></TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="0" Name="Block1" Margin="5,15" Foreground="#0ffb03" Text="BLOCK 2" FontSize="24"></TextBlock>
-        <TextBlock Grid.Column="2" Grid.Row="0" Name="Block3" Margin="5,15" Foreground="#0ffb03" Text="BLOCK 3" FontSize="24"></TextBlock>
-        <TextBlock Grid.Column="0" Grid.Row="1" Name="Block4" Margin="5,15" Foreground="#0ffb03" Text="BLOCK 4" FontSize="24"></TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="1" Name="Block5" Margin="5,15" Foreground="#0ffb03" Text="BLOCK 5" FontSize="24"></TextBlock>
-        <TextBlock Grid.Column="2" Grid.Row="1" Name="Block6" Margin="5,15" Foreground="#0ffb03" Text="BLOCK 6" FontSize="24"></TextBlock>
-        <TextBlock Grid.Column="0" Grid.Row="2" Name="Block7" Margin="5,15" Foreground="#0ffb03" Text="BLOCK 7" FontSize="24"></TextBlock>
-        <TextBlock Grid.Column="1" Grid.Row="2" Name="Block8" Margin="5,15" Foreground="#0ffb03" Text="BLOCK 8" FontSize="24"></TextBlock>
-        <TextBlock Grid.Column="2" Grid.Row="2" Name="Block9" Margin="5,15" Foreground="#0ffb03" Text="BLOCK 9" FontSize="24"></TextBlock>
-    </Grid>-->
 </Page>
