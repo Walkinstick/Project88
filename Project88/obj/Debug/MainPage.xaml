@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    
+
     <!--Menu Bar Bottom-->
     <Page.BottomAppBar>
         <CommandBar Height="60" Background="Gray" Foreground="#000">
@@ -18,25 +18,35 @@
 
         </CommandBar>
     </Page.BottomAppBar>
-    
+
     <!--Page Pivot-->
     <Grid>
         <Pivot Title="PROJECT 88">
-            <PivotItem Header="Page1">
+            <PivotItem Header="Lights">
+                <!--<Border BorderBrush="White" BorderThickness="2">-->
+                <StackPanel>
+                    <ToggleSwitch Header="LED1" VerticalAlignment="Stretch" Margin="20,20,20,20"/>
+                    <ToggleSwitch Header="LED2" VerticalAlignment="Stretch" Margin="20,20,20,20"/>
+                    <ToggleSwitch Header="LED3" VerticalAlignment="Stretch" Margin="20,20,20,20"/>
+                    <ToggleSwitch Header="LED4" VerticalAlignment="Stretch" Margin="20,20,20,20"/>
+
+                </StackPanel>
+
+
+                <!--</Border>-->
+
+            </PivotItem>
+            <PivotItem Header="Sound">
+                <StackPanel>
+                    <TextBlock Text="Volume Control" FontSize="20" Margin="20,20,20,20"></TextBlock>
+                <Slider HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="250"/>
+                
+                </StackPanel>
+            </PivotItem>
+            <PivotItem Header="Display">
                 <Border BorderBrush="White" BorderThickness="2">
-                    <Image Source="Assets/Logo.png"/>
+
                 </Border>
-
-            
-            </PivotItem>
-            <PivotItem Header="Page2">
-                <Border BorderBrush="White" BorderThickness="2"></Border>
-
-
-            </PivotItem>
-            <PivotItem Header="Page3">
-                <Border BorderBrush="White" BorderThickness="2"></Border>
-
 
             </PivotItem>
         </Pivot>
